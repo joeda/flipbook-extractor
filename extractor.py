@@ -27,7 +27,8 @@ DATA = [
     {"name": "mustertext", "cat": 15},
     {"name": "schulung", "cat": 17}
 ]
-BASE_URL = "https://www.datenschutz-in-arztpraxen.de/"
+# change this
+BASE_URL = "https://www.datenschutz minus in minus arztpraxen.de/"
 
 def svg2pdf(infile, outfile=""):
     if outfile == "":
